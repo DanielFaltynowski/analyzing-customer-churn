@@ -10,13 +10,13 @@ Customer churn is a critical issue for subscription-based businesses, directly i
 
 ### Objectives
 
-- What are the main reasons for customer churn in our dataset, and which features are most strongly associated with it?
+- **Question 1.** What are the main reasons for customer churn in our dataset, and which features are most strongly associated with it?
 
-- How does churn vary across different age categories ?
+- **Question 2.** How does churn vary across different age categories ?
 
-- Among customers with the Unlimited Data Plan, how does churn differ when segmenting their historical data usage into Less Than 5 GB, Between 5 GB and 10 GB, and More Than 10 GB?
+- **Question 3.** Among customers with the Unlimited Data Plan, how does churn differ when segmenting their historical data usage into Less Than 5 GB, Between 5 GB and 10 GB, and More Than 10 GB?
 
-- How does churn relate to customers’ U.S. state of residence and International Plan ownership? What role do customer tenure and payment types (Month-to-Month, One Year, Two Years) play in churn?
+- **Question 4.** How does churn relate to customers’ U.S. state of residence and International Plan ownership? What role do customer tenure and payment types (Month-to-Month, One Year, Two Years) play in churn?
 
 
 ### Identify Data Sources
