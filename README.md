@@ -21,15 +21,37 @@ Customer churn is a critical issue for subscription-based businesses, directly i
 
 ### Identify Data Sources
 
+DataCamp Case Study: Analyzing Customer Churn - this is the source
+
+`Cuastomer` table shows specifics for a single users
+`Aggregate` shows specific options and how many users using this combination from the offer
+
+### Loading Data Using Power Query
+
+loaded two tables `Customer` `Aggregate` from the excel file containing data from `Databel`
+
 ### Data Cleaning
+
+i highlighed duplitates in `Customer ID` column and deleted using Data->Remove Duplicvates but no duplicates was found
 
 ### Descriptive Statistics
 
+how many users, 
+
 ### Data Exploration
 
-Q1:
-Q1:
-Q1:
-Q1:
+Q1
+I had `Churn Label` in `Customer` containing `Yes`/`No` i added `Churned` column having 0 if no and 1 if yes i helps for analysis all my added columns i highlighted in a blue/green background
+
+
+Q2
+
+
+
+Q3
+
+
+
+Q4
 
 ### Create Dashboards
