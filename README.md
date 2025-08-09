@@ -1,4 +1,4 @@
-# analyzing-customer-churn
+# Analyzing Customer Churn
 
 ## Introduction
 
