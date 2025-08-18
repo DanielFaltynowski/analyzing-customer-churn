@@ -66,19 +66,34 @@ These metrics served as the baseline for further analysis.
 - Nearly **50% of customer departures** are due to competitive offers — mainly **better device options and more favorable plan conditions** provided by competitors.
 - Competition-related churn remains the most significant driver of customer loss.
 
+![Main Reasons for Churn](./screenshots/07_analysing_reason.png)  
+*Breakdown of customer churn reasons.*
+
 ### 2. Churn by Age Group
 - The **highest churn rate** occurs among customers aged **30–65 years**.
 - Within this group, churn is relatively evenly distributed, indicating no strong age sub-clusters.
 
+![Churn by Age Group](./screenshots/08_analysing_age.png)  
+*Churn analysis segmented by customer age group.*
+
 ### 3. Unlimited Data Plan – Data Usage Segmentation
 - Customers with **average data usage** (5–10 GB) under the Unlimited Plan churn more frequently than low (<5 GB) or high (>10 GB) usage customers.
 - This suggests possible dissatisfaction with perceived value in the mid-usage segment.
+
+![Unlimited Data Usage Segmentation](./screenshots/09_analysing_usage_data.png)  
+*Churn rates for Unlimited Plan customers by data usage level.*
 
 ### 4. Churn by Geography, International Plan, and Payment Type
 - International Plan subscribers churn **significantly more often** than others in certain states — particularly **CA, IN, NH, KY, and LA** — which show the largest churn rate differences.
 - **Payment Type Impact:**
   - **Month-to-Month plans** have the highest churn rates, especially within the **first four years of service**.
   - **One- and Two-Year contracts** show **no significant churn spikes**, indicating higher retention for long-term commitments.
+
+![Churn by International Plan](./screenshots/10_analysing_international_plan.png)  
+*Churn analysis based on International Plan ownership and state distribution.*
+
+![Churn by Subscription Type](./screenshots/11_analysing_subscribtion_type.png)  
+*Comparison of churn rates across different subscription types.*
 
 # Conclusion
 
