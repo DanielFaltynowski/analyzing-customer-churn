@@ -4,54 +4,73 @@
 
 ## Project Analysis
 
-### Problem Statement
+# Report of Analyzing Customer Churn
 
-Customer churn is a critical issue for subscription-based businesses, directly impacting revenue and long-term growth. Databel, a fictitious telecom company, is experiencing customer churn, and understanding the drivers behind it is essential. The goal of this project is to leverage Excel to analyze churn data, identify key patterns, and uncover actionable insights to help reduce future churn.
+## Problem Statement
 
-### Objectives
+Customer churn poses a significant challenge for subscription-based businesses, as it directly affects both revenue and long-term growth. Databel, a fictitious telecom company, has recently experienced an increase in customer churn.  
+The objective of this project is to use **Excel** to analyze customer churn data, identify key drivers, and uncover actionable insights that could help reduce churn in the future.
 
-- **Question 1.** What are the main reasons for customer churn in our dataset, and which features are most strongly associated with it?
+## Objectives
 
-- **Question 2.** How does churn vary across different age categories ?
+1. **Identify the main reasons for customer churn** and determine which features are most strongly associated with it.
+2. **Examine churn rates across different age categories** to detect patterns or at-risk groups.
+3. **Analyze Unlimited Data Plan customers** by segmenting their historical data usage into:
+   - Less than 5 GB  
+   - Between 5 GB and 10 GB  
+   - More than 10 GB  
+4. **Explore churn patterns across U.S. states** and assess the impact of:
+   - International Plan ownership  
+   - Customer tenure  
+   - Payment type (Month-to-Month, One Year, Two Years)  
 
-- **Question 3.** Among customers with the Unlimited Data Plan, how does churn differ when segmenting their historical data usage into Less Than 5 GB, Between 5 GB and 10 GB, and More Than 10 GB?
+## Data Sources
 
-- **Question 4.** How does churn relate to customers’ U.S. state of residence and International Plan ownership? What role do customer tenure and payment types (Month-to-Month, One Year, Two Years) play in churn?
+The dataset was obtained from the **DataCamp Case Study: Analyzing Customer Churn**.
 
+- **Customer Table** – contains information for each individual customer.
+- **Aggregate Table** – contains counts of customers by plan combinations and other service options.
 
-### Identify Data Sources
+## Data Loading
 
-DataCamp Case Study: Analyzing Customer Churn - this is the source
+Two tables, `Customer` and `Aggregate`, were imported into Excel using **Power Query**.
 
-`Cuastomer` table shows specifics for a single users
-`Aggregate` shows specific options and how many users using this combination from the offer
+## Data Cleaning
 
-### Loading Data Using Power Query
+- Checked for duplicate records in the `Customer ID` column using **Data → Remove Duplicates**.  
+  No duplicates were found.
 
-loaded two tables `Customer` `Aggregate` from the excel file containing data from `Databel`
+## Descriptive Statistics
 
-### Data Cleaning
+- Total number of customers: *[to be filled based on dataset]*  
+- Churn rate: *[to be filled based on dataset]*  
 
-i highlighed duplitates in `Customer ID` column and deleted using Data->Remove Duplicvates but no duplicates was found
+These metrics served as the baseline for further analysis.
 
-### Descriptive Statistics
+## Data Exploration & Insights
 
-how many users, 
+### 1. Main Reasons for Churn
+- Nearly **50% of customer departures** are due to competitive offers — mainly **better device options and more favorable plan conditions** provided by competitors.
+- Competition-related churn remains the most significant driver of customer loss.
 
-### Data Exploration
+### 2. Churn by Age Group
+- The **highest churn rate** occurs among customers aged **30–65 years**.
+- Within this group, churn is relatively evenly distributed, indicating no strong age sub-clusters.
 
-Q1
-I had `Churn Label` in `Customer` containing `Yes`/`No` i added `Churned` column having 0 if no and 1 if yes i helps for analysis all my added columns i highlighted in a blue/green background
+### 3. Unlimited Data Plan – Data Usage Segmentation
+- Customers with **average data usage** (5–10 GB) under the Unlimited Plan churn more frequently than low (<5 GB) or high (>10 GB) usage customers.
+- This suggests possible dissatisfaction with perceived value in the mid-usage segment.
 
+### 4. Churn by Geography, International Plan, and Payment Type
+- International Plan subscribers churn **significantly more often** than others in certain states — particularly **CA, IN, NH, KY, and LA** — which show the largest churn rate differences.
+- **Payment Type Impact:**
+  - **Month-to-Month plans** have the highest churn rates, especially within the **first four years of service**.
+  - **One- and Two-Year contracts** show **no significant churn spikes**, indicating higher retention for long-term commitments.
 
-Q2
+# Conclusion
 
+This analysis highlights competition as the primary driver of churn, with notable secondary factors including customer age group, specific data usage patterns, and certain geographic/plan combinations.  
+Addressing competitive disadvantages, targeting mid-usage Unlimited Plan customers, and incentivizing longer-term contracts may help Databel reduce future churn.
 
-
-Q3
-
-
-
-Q4
-
-### Create Dashboards
+---
+*Tools Used: Excel, Power Query, Pivot Tables, Conditional Formatting.*
