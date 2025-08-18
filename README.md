@@ -1,9 +1,11 @@
-# Report of Analyzing Customer Churn
+# 📉 Analyzing Customer Churn
 
 ## Problem Statement
 
 Customer churn poses a significant challenge for subscription-based businesses, as it directly affects both revenue and long-term growth. Databel, a fictitious telecom company, has recently experienced an increase in customer churn.  
 The objective of this project is to use **Excel** to analyze customer churn data, identify key drivers, and uncover actionable insights that could help reduce churn in the future.
+
+# Report of Analyzing Customer Churn
 
 ## Objectives
 
