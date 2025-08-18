@@ -29,10 +29,29 @@ The dataset was obtained from the **DataCamp Case Study: Analyzing Customer Chur
 
 Two tables, `Customer` and `Aggregate`, were imported into Excel using **Power Query**.
 
+![Power Query Aggregate](./screenshots/01_power_query_aggregate.png)  
+*Import of Aggregate table into Power Query.*
+
+![Power Query Customer](./screenshots/02_power_query_customer.png)  
+*Import of Customer table into Power Query.*
+
+![Loaded Customer](./screenshots/03_loaded_customer.png)  
+*Customer table loaded into Excel.*
+
+![Loaded Aggregate](./screenshots/04_loaded_aggregate.png)  
+*Aggregate table loaded into Excel.*
+
 ## Data Cleaning
 
 - Checked for duplicate records in the `Customer ID` column using **Data → Remove Duplicates**.  
-  No duplicates were found.
+
+![Remove Duplicates](./screenshots/05_remove_duplicates.png)  
+*Removing duplicates from Customer ID column.*
+
+No duplicates were found.  
+
+![No Duplicates](./screenshots/06_no_duplicates.png)  
+*Excel confirmation that no duplicates exist.*
 
 ## Descriptive Statistics
 
