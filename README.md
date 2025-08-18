@@ -32,7 +32,7 @@ Two tables, `Customer` and `Aggregate`, were imported into Excel using **Power Q
 ![Power Query Aggregate](./screenshots/01_power_query_aggregate.png)  
 *Import of Aggregate table into Power Query.*
 
-![Power Query Customer](./screenshots/02_power_query_customer.png)  
+![Power Query Customer](./screenshots/02_power_query_customer-churn.png)  
 *Import of Customer table into Power Query.*
 
 ![Loaded Customer](./screenshots/03_loaded_customer.png)  
