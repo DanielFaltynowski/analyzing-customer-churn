@@ -1,9 +1,3 @@
-# Analyzing Customer Churn
-
-## Introduction
-
-## Project Analysis
-
 # Report of Analyzing Customer Churn
 
 ## Problem Statement
@@ -42,8 +36,8 @@ Two tables, `Customer` and `Aggregate`, were imported into Excel using **Power Q
 
 ## Descriptive Statistics
 
-- Total number of customers: *[to be filled based on dataset]*  
-- Churn rate: *[to be filled based on dataset]*  
+- Total number of customers: *6687*
+- Churn rate: *26.86%*  
 
 These metrics served as the baseline for further analysis.
 
